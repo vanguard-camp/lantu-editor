@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:js": "eslint --ext .jsx,.js,.ts,.tsx ./",
-    "lint:fix": "eslint --fix --ext .jsx,.js,.ts,.tsx ./"
+    "lint:js": "node_modules/.bin/eslint  --ext .jsx,.js,.ts,.tsx ./",
+    "lint:fix": "node_modules/.bin/eslint  --fix --ext .jsx,.js,.ts,.tsx ./"
   },
   "keywords": [],
   "author": "",
